@@ -24,6 +24,7 @@ SETUP INSTRUCTIONS (XAMPP)
 
 6. Open the system in your browser:
    http://localhost/wastewatch/
+   or run command php -S localhost:8000 if you use Sequel Pro 
 
 7. Log in with one of the accounts below (see also System Documentation):
 
