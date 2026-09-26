@@ -72,6 +72,7 @@ require __DIR__ . '/../includes/header.php';
         <h3>Quick actions</h3>
         <p>Pending special-pickup requests: <strong><?= $pickupCount ?></strong></p>
         <p style="margin-top:14px;">
+            <a href="manage_pickups.php" class="btn btn-secondary btn-sm">Manage special pickups</a><br><br>
             <a href="manage_schedule.php" class="btn btn-secondary btn-sm">Manage collection schedule</a><br><br>
             <a href="reports_summary.php" class="btn btn-secondary btn-sm">View analytics &amp; reports</a>
         </p>

@@ -18,6 +18,7 @@
                     <!-- Admin nav is only ever rendered from pages inside /admin/, so links are relative to that folder -->
                     <a href="dashboard.php">Dashboard</a>
                     <a href="manage_reports.php">Issue Reports</a>
+                    <a href="manage_pickups.php">Special Pickups</a>
                     <a href="manage_schedule.php">Schedules</a>
                     <a href="reports_summary.php">Analytics</a>
                 <?php else: ?>
