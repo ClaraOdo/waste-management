@@ -7,7 +7,7 @@ SETUP INSTRUCTIONS (XAMPP)
 
 2. Copy the whole "wastewatch" folder into your XAMPP htdocs directory, e.g.:
    C:\xampp\htdocs\wastewatch        (Windows)
-   /Applications/XAMPP/htdocs/wastewatch   (macOS)
+   /Applications/XAMPP/htdocs/wastewatch or use Sequel Pro  (macOS) 
 
 3. Start Apache and MySQL from the XAMPP Control Panel.
 
