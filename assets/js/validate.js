@@ -208,4 +208,18 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+    /*  Pickup request delete functionality  */
+    document.querySelectorAll('.delete-btn').forEach(function (deleteBtn) {
+        deleteBtn.addEventListener('click', function () {
+            var form = deleteBtn.closest('form');
+            var reasonSelect = form.querySelector('select[name="delete_reason"]');
+            var confirmBtn = form.querySelector('.confirm-delete-btn');
+            
+            // Show reason dropdown and confirm button, hide delete button
+            reasonSelect.style.display = 'inline';
+            confirmBtn.style.display = 'inline';
+            deleteBtn.style.display = 'none';
+        });
+    });
 });
