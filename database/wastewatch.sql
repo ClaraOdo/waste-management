@@ -103,7 +103,7 @@ INSERT INTO zones (zone_name, zone_description) VALUES
 -- (See README.txt / System Documentation Section 7 for credentials)
  
 INSERT INTO users (full_name, username, email, password_hash, phone, role, zone_id) VALUES
-('System Administrator', 'admin', 'admin@wastewatch.local',
+('Administrator', 'admin', 'admin@wastewatch.local',
  '$2b$10$NBEbLFvEYkul3d8uXK3XSuthQK3ihCd400vRokhSFP0V/21wPRVha', '0700000000', 'admin', NULL),
 ('Resident', 'testuser', 'resident@wastewatch.local',
  '$2b$10$f0w.tKl/qRvBVbUyR3X6GeEBhN0u8qbO15TQJPCTTLeh0K9DRVkUe', '0700000001', 'resident', 1);
