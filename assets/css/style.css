@@ -97,6 +97,18 @@ p { max-width: 68ch; }
     font-size: 0.9rem;
     border-left: 1px solid rgba(255,255,255,0.2);
     padding-left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.nav-zone {
+    font-size: 0.75rem;
+    background: rgba(255,255,255,0.12);
+    border-radius: 12px;
+    padding: 2px 8px;
+    color: #c8d8d2;
+    white-space: nowrap;
 }
 
 /*  Layout  */

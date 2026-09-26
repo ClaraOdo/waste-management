@@ -27,7 +27,12 @@
                     <a href="request_pickup.php">Request Pickup</a>
                     <a href="schedule.php">Collection Schedule</a>
                 <?php endif; ?>
-                <span class="nav-user">Hi, <?= e($_SESSION['full_name']) ?></span>
+                <span class="nav-user">
+                    Hi, <?= e($_SESSION['full_name']) ?>
+                    <?php if ($_SESSION['role'] === 'resident' && !empty($_SESSION['zone_name'])): ?>
+                        <span class="nav-zone">📍 <?= e($_SESSION['zone_name']) ?></span>
+                    <?php endif; ?>
+                </span>
                 <a href="<?= $basePath ?? '' ?>logout.php" class="btn-link">Logout</a>
             <?php else: ?>
                 <a href="<?= $basePath ?? '' ?>index.php">Home</a>
